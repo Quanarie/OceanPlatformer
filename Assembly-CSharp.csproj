@@ -63,10 +63,11 @@
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
-    <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerHP.cs" />
     <Compile Include="Assets\Scripts\CoinScripts\CoinPickUp.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerScore.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\PlayerHP.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\Plant.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />

@@ -19,6 +19,7 @@ public class CoinPickUp : MonoBehaviour
         if (coinMesh == null)
             throw new NullReferenceException("Can not find Mesh Renderer component");
     }
+
     private void OnTriggerEnter(Collider collider)
     {
         if (collider.tag == "Player")
